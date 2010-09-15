@@ -46,7 +46,7 @@ class MboxMigrate(threading.Thread):
                     # mb.lock()
                     for msg in mb:
                         mail_properties = []
-                        if mbox == 'send':
+                        if mbox == 'sent':
                             mail_properties.append('IS_SENT')
                         else:
                             mail_properties.append('IS_INBOX')
