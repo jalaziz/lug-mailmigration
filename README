@@ -1,0 +1,19 @@
+LUG Mail Migration
+==================
+
+About
+-----
+
+Mail migration script to migrate email messages from mbox files to Google Apps
+
+Usage
+-----
+
+./migrate.py --user [username] --pw [password]
+             --dest-users [destination users] --domain [domain]
+             --max-threads [number of threads] --home-dir [home directory]
+
+Authors
+-------
+
+Jameel Al-Aziz
